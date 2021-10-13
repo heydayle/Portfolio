@@ -1,0 +1,10 @@
+.img-avatar{
+    width: inherit;
+}
+.img-info{
+    width: 150px;
+    margin: auto;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+}
