@@ -7,99 +7,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thinh Le</title>
     <link rel="icon" href="./assets/img/icon/ic-heyday.png">
+
     <link href="./lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script language="JavaScript" type="text/javascript" href="./lib/jquery/jquery.min.js" rel="stylesheet"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript"
+        src="https://raw.github.com/peachananr/onepage-scroll/master/jquery.onepage-scroll.min.js"></script>
 
     <link rel="stylesheet" href="./assets/scss/style.css" />
     <link rel="stylesheet" href="./assets/scss/index.css" />
-
     <script src="js/index.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".main_page").onepage_scroll({
+                sectionContainer: "section"
+            });
+        });
+    </script>
 </head>
 
 <body>
-    <input id="section1" type="radio" name="item" checked="checked" />
-    <input id="section2" type="radio" name="item" />
-    <input id="section3" type="radio" name="item" />
-    <input id="section4" type="radio" name="item" />
-    <!-- Navigation-->
-    <nav class="nav" style="display: block;">
-        <label class="nav__item" for="section1"></label>
-        <label class="nav__item" for="section2"></label>
-        <label class="nav__item" for="section3"></label>
-        <label class="nav__item" for="section4"></label>
-    </nav>
-    <section>
-        <div class="">
-            <div class="img-avatar">
-                <img class=" img-info d-block" src="assets/img/portrait.png" alt="info">
-            </div>
-            <div class="infomation">
-                <h1 class="bold">Le Duong Hung Thinh</h1>
-                <h2 class="text-center">Front-end Developer</h2>
-                <div class="row mx-2">
-                    <div class="col-6 person">
-                        <div class="align-left fs-4"><span class="fs-5">Gender: </span> Male</div>
-                        <div class="align-left fs-4"><span class="fs-5">Hometown: </span> Ca Mau</div>
-                        <div class="align-left fs-4"><span class="fs-5">Day of Birth: </span> 01/01/1999</div>
-                        <div class="align-left fs-4"><span class="fs-5">Address: </span>D.6, Ho Chi Minh City</div>
+    <div class="wrapper">
+        <div class="main_page">
+            <section class="page1">
+                <div class="page_container">
+                    <div class="d-flex mb-4">
+                        <img class="mx-3 img-info" width="150" height="150" src="assets/img/portrait.png" alt="phones">
+                        <div class="">
+                            <h1 class="col-9">Le Duong Hung Thinh</h1>
+                            <h2>Front-End Developer</h2>
+                        </div>
                     </div>
-                    <div class="col-6 mx-auto contact">
-                        <div class="align-left fs-4 ml-2"><span class="fs-5">Phone number: </span>(+84) 857 676 107
-                            <button type="button" class="btn btn-close-white"
-                                onclick="copyToClipboard('+84857676107')">Copy
-                            </button>
-                        </div>
-                        <div id="email" class="align-left fs-4">
-                            <span class="fs-5">Email: </span>
-                            Hungthinh.ckc@gmail.com
-                            <button type="button" class="btn btn-close-white"
-                                onclick="copyToClipboard('Hungthinh.ckc@gmail.com')">Copy
-                            </button>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <a target="_blank" href="https://Github.com/heyday1515">
-                                    <img width="48" height="48" src="./assets/img/icon/ic-github.png" alt="github" />
-                                </a>
+                    <div class="row col-12 mx-auto">
+                        <div class="col-6 person">
+                            <div class="align-left fs-4"><span class="fs-5">Gender: </span> Male</div>
+                            <div class="align-left fs-4"><span class="fs-5">Hometown: </span> Ca Mau</div>
+                            <div class="align-left fs-4"><span class="fs-5">Day of Birth: </span> 01/01/1999</div>
+                            <div class="align-left fs-4"><span class="fs-5">Address: </span>D.6, Ho Chi Minh City
                             </div>
-                            <div class="col-lg-2">
-                                <a target="_blank" href="https://join.skype.com/invite/V0Xz7wIrwhgU">
-                                    <img src="assets/img/icon/ic-skype.png" />
-                                </a>
+                        </div>
+                        <div class="col-6 mx-auto contact">
+                            <div class="align-left fs-4 ml-2"><span class="fs-5">Phone number: </span>(+84) 857 676
+                                107
+                                <button type="button" class="btn btn-close-white"
+                                    onclick="copyToClipboard('+84857676107')">Copy
+                                </button>
+                            </div>
+                            <div id="email" class="align-left fs-4">
+                                <span class="fs-5">Email: </span>
+                                Hungthinh.ckc@gmail.com
+                                <button type="button" class="btn btn-close-white"
+                                    onclick="copyToClipboard('Hungthinh.ckc@gmail.com')">Copy
+                                </button>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <a target="_blank" href="https://Github.com/heyday1515">
+                                        <img width="48" height="48" src="assets/img/icon/ic-github.png" alt="github" />
+                                    </a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a target="_blank" href="https://join.skype.com/invite/V0Xz7wIrwhgU">
+                                        <img src="assets/img/icon/ic-skype.png" />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="summary">
-            <h1>Summary</h1>
-            <div class="col-8 row mx-auto">
-                <div class="col-6 objective">
-                    <h2>Objective</h2>
-                    <div class="">Looking forward to learning from experience so that in the future, I can
-                        dedicate myself to being a part of the company.
+            </section>
+
+            <section class="page2">
+                <div class="page_container">
+                    <h1>Summary</h1>
+                    <div class="col-10 row mx-auto">
+                        <ul class="col-7 objective">
+                            <h2>Objective</h2>
+                            <li>Looking forward to learning and improving my skills.</li>
+                            <li>Devote yourself to work and contribute to the development of the company.</li>
+                        </ul>
+                        <ul class="col-5 language">
+                            <h2>Language</h2>
+                            <li class="certificate">Certificate in English level 2/6(GPA: 7.8/10)
+                                <div class="place">
+                                    College of Cao Thang.
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="col-7 technical-skill">
+                            <h2>Technical Skill</h2>
+                            <li>Good HTML, Css, and JavaScripts</li>
+                            <li>Good Jquery, React Native, ReactJS, VueJs, Vue StoreFront, Scss</li>
+                            <li>Good Adobe XD, Photoshop, Illustrator, Git, Figma </li>
+                        </ul>
+                        <ul class="col-5 personality">
+                            <h2>Personality</h2>
+                            <li class="">
+                                Sociable, Friendly, Progressive, Studious
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <code class="html">
+                        &lt;div class="main"&gt;<br>
+                        &lt;section&gt;...&lt;/section&gt;<br>
+                        &lt;section&gt;...&lt;/section&gt;<br>
+                        ...<br>
+                        &lt;/div&gt;
+                    </code>
+                    <code class="js">
+                $(".main_page").onepage_scroll();
+              </code> -->
+                </div>
+            </section>
+
+            <section class="page3">
+                <div class="page_container">
+                    <h1>Working Experience</h1>
+                    <h2>You can customise the animation timing, the selector or even the animation easing using CSS3. I
+                        can't wait to see what you guys will come up with. Don't forget to grab them for free on Github'
+                    </h2>
+                    <div class="btns">
+                        <a class="reload btn" href="https://github.com/peachananr/onepage-scroll">Download on Github</a>
                     </div>
                 </div>
-                <div class="col-6 language">
-                    <h2>Language</h2>
-                    <div class="certificate">Certificate in English level 2/6(GPA: 7.8/10)
-                    </div>
-                    <div class="place">
-                        College of Cao Thang.
+            </section>
+
+            <section class="page1">
+                <div class="page_container">
+                    <h1>One Page Scroll</h1>
+                    <h2>Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin
+                    </h2>
+                    <p class="credit">Created by <a href="http://www.thepetedesign.com">Pete R.</a>, Founder of <a
+                            href="http://www.bucketlistly.com" target="_blank">BucketListly</a></p>
+                    <div class="btns">
+                        <a class="reload btn" href="https://github.com/peachananr/onepage-scroll">Download on Github</a>
                     </div>
                 </div>
-            </div>
+                <img src="phones.png" alt="phones">
+            </section>
+
         </div>
-    </section>
-    <section>
-        <h1>Full Screen</h1>
-    </section>
-    <section>
-        <h1>@Ver_Qn</h1>
-    </section><!-- Fix the white space when scrolling two sections at the time-->
-    <div class="cover"></div>
+    </div>
 </body>
 
 </html>
