@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thinh Le</title>
+    <link rel="icon" href="./assets/img/icon/ic-heyday.png">
     <link href="./lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/scss/style.css" />
@@ -20,7 +21,7 @@
     <input id="section3" type="radio" name="item" />
     <input id="section4" type="radio" name="item" />
     <!-- Navigation-->
-    <nav class="nav">
+    <nav class="nav" style="display: block;">
         <label class="nav__item" for="section1"></label>
         <label class="nav__item" for="section2"></label>
         <label class="nav__item" for="section3"></label>
@@ -31,47 +32,52 @@
             <div class="img-avatar">
                 <img class=" img-info d-block" src="./assets/img/anhThe2.png" alt="info">
             </div>
-            <div class="">
+            <div class="infomation">
                 <h1 class="bold">Le Duong Hung Thinh</h1>
+                <h2 class="text-center">Front-end Developer</h2>
                 <div class="row mx-2">
-                    <div class="col-8 infomation">
-                        <h2>Front-end Developer</h2>
+                    <div class="col-6 person">
                         <div class="align-left fs-4"><span class="fs-5">Gender: </span> Male</div>
                         <div class="align-left fs-4"><span class="fs-5">Hometown: </span> Ca Mau</div>
                         <div class="align-left fs-4"><span class="fs-5">Day of Birth: </span> 01/01/1999</div>
-                        <div class="align-left fs-4"><span class="fs-5"></span>Phone number: (+84) 857 676 107
-                            <button type="button" class="btn btn-outline-secondary"
+                        <div class="align-left fs-4"><span class="fs-5">Address: </span>D.6, Ho Chi Minh City</div>
+
+                    </div>
+                    <div class="col-6 mx-auto contact">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <a target="_blank" href="https://Github.com/heyday1515">
+                                    <img width="48" height="48" src="./assets/img/icon/ic-github.png" alt="github" />
+                                </a>
+                            </div>
+                            <div class="col-lg-2">
+                                <a target="_blank" href="https://join.skype.com/invite/V0Xz7wIrwhgU">
+                                    <img src="https://img.icons8.com/fluency/48/000000/skype.png" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="align-left fs-4 ml-2"><span class="fs-5">Phone number: </span>(+84) 857 676 107
+                            <button type="button" class="btn btn-close-white"
                                 onclick="copyToClipboard('+84857676107')">Copy
                             </button>
                         </div>
-                        <div class="align-left fs-4"><span class="fs-5"></span>Address: D.6, Ho Chi Minh City</div>
-                        <div id="email" class="align-left fs-4" value="Hungthinh.ckc@gmail.com">
-                            <span class="fs-5"></span>
-                            Email: Hungthinh.ckc@gmail.com
-                            <button type="button" class="btn btn-outline-secondary"
+                        <div id="email" class="align-left fs-4">
+                            <span class="fs-5">Email: </span>
+                            Hungthinh.ckc@gmail.com
+                            <button type="button" class="btn btn-close-white"
                                 onclick="copyToClipboard('Hungthinh.ckc@gmail.com')">Copy
                             </button>
                         </div>
                     </div>
-                    <div class="col-4 row mx-auto network">
-                        <div class="col-lg-3">
-                            <a target="_blank" href="https://Github.com/heyday1515">
-                                <img width="48" height="48" src="./assets/img/icon/ic-github.png" alt="github" />
-                            </a>
-                        </div>
-                        <div class="col-lg-3">
-                            <a target="_blank" href="https://join.skype.com/invite/V0Xz7wIrwhgU">
-                                <img src="https://img.icons8.com/fluency/48/000000/skype.png" />
-                            </a>
-                        </div>
-                    </div>
                 </div>
-
             </div>
         </div>
     </section>
     <section>
-        <h1>Pure CSS</h1>
+        <div class="summary">
+            <h1>Summary</h1>
+
+        </div>
     </section>
     <section>
         <h1>Full Screen</h1>
