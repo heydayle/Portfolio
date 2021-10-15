@@ -1,17 +1,17 @@
-/* @import url(https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:wght@100&display=swap);
-html,body{
+@import url(https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:wght@100&display=swap);
+/* html,body{
 	padding: 0;
 	margin: 0;
 	color: white;
-	font: 100% "Be Vietnam Pro", cursive;
   } */
   html {
 	height: 100%;
+	font: 100% "Be Vietnam Pro", cursive;
   }
   body {
 	background: #E2E4E7;
 	padding: 0;
-	font-family: 'open sans';
+	font-family: 'Be Vietnam Pro';
 	position: relative;
 	margin: 0;
 	height: 100%;
@@ -178,10 +178,15 @@ html,body{
   }
   .main_page section .page_container {
 	position: relative;
-	top: 25%;
+	top: 5%;
 	margin: 0 auto 0;
 	max-width: 950px;
 	z-index: 3;
+  }
+  @media (min-width: 1024px) {
+	.main_page section .page_container {
+		top: 25%;
+	  }
   }
   .main_page section  {
 	overflow: hidden;
@@ -247,14 +252,14 @@ html,body{
   }
   .main_page section.page3 .page_container {
 	overflow: hidden;
-	width: 500px;
-	right: -285px;
+	width: 1000px;
+	/* right: -285px; */
   }
   .main_page section.page3 h1 {
 	text-align: left;
 	padding: 0;
 	margin-bottom: 0;
-	font-size: 70px;
+	font-size: 50px;
 	letter-spacing: -1px;
 	color: black;
   }

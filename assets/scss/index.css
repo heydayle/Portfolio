@@ -1,10 +1,22 @@
+
+@media (min-width: 1024px){
+    .img-info{
+        margin: 0 10px;
+    }
+    .info-avatar{
+        display: flex;
+    }
+}
 .img-avatar{
     width: inherit;
 }
+@media (max-width: 375px){
+    .img-info{
+        margin: auto;
+    }
+}
 .img-info{
     width: 150px;
-    margin: auto;
-    display: block;
     background: #fff;
     border-radius: 50%;
 }
