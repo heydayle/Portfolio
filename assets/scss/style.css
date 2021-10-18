@@ -185,7 +185,7 @@
   }
   @media (min-width: 1024px) {
 	.main_page section .page_container {
-		top: 25%;
+		top: 15%;
 	  }
 	.main_page section.page1 h1 {
 		text-align: left;
@@ -256,7 +256,6 @@
   .main_page section.page3 .page_container {
 	overflow: hidden;
 	width: 1000px;
-	top: 15%;
 	/* right: -285px; */
   }
   .main_page section.page3 h1 {
