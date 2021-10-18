@@ -187,6 +187,10 @@
 	.main_page section .page_container {
 		top: 25%;
 	  }
+	.main_page section.page1 h1 {
+		text-align: left;
+		font-size: 70px;
+	}
   }
   .main_page section  {
 	overflow: hidden;
@@ -201,11 +205,10 @@
   .main_page section.page1 {
 	background:rgb(230, 217, 200);
   }
+  /*page 1*/
   .main_page section.page1 h1 {
-	text-align: left;
 	padding: 0;
 	margin-bottom: 15px;
-	font-size: 70px;
 	color: black;
   }
   .main_page section.page1 h2 {
