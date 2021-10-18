@@ -256,6 +256,7 @@
   .main_page section.page3 .page_container {
 	overflow: hidden;
 	width: 1000px;
+	top: 15%;
 	/* right: -285px; */
   }
   .main_page section.page3 h1 {
