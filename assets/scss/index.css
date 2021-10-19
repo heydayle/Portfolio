@@ -2,9 +2,15 @@
 @media (min-width: 1024px){
     .img-info{
         margin: 0 10px;
+        width: 150px;
+        height: 150px;
     }
     .info-avatar{
         display: flex;
+    }
+    .page2 ul > li {
+        font-size: 14px;
+        color: #b9b9b9;
     }
 }
 .img-avatar{
@@ -14,6 +20,8 @@
     .img-info{
         margin: auto;
         display: block;
+        width: 100px;
+        height: 100px;
     }
     .page1 h1{
         text-align: center;
@@ -21,14 +29,34 @@
         float: unset;
         letter-spacing: 1px;
     }
+    .page1 h2{
+        width: auto !important;
+        text-align: center;
+    }
+    .page1 .person >div {
+        margin-top: 10px;
+    }
+    .page1 .person > div > span{
+        font-size: 14px !important;
+    }
+    .page1 .person > div{
+        font-size: 16px !important;
+    }
+    
+    .page1 .contact > div > span{
+        font-size: 14px !important;
+    }
+    .page1 .contact > div{
+        font-size: 16px !important;
+    }
+    
 }
 .img-info{
-    width: 150px;
     background: #fff;
     border-radius: 50%;
 }
 /* page2 */
 .page2 ul > li {
-    font-size:14px;
+    font-size: 14px;
     color: #b9b9b9;
 }
