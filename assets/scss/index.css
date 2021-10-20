@@ -1,22 +1,9 @@
 
-@media (min-width: 1024px){
-    .img-info{
-        margin: 0 10px;
-        width: 150px;
-        height: 150px;
-    }
-    .info-avatar{
-        display: flex;
-    }
-    .page2 ul > li {
-        font-size: 14px;
-        color: #b9b9b9;
-    }
+.img-info{
+    background: #fff;
+    border-radius: 50%;
 }
-.img-avatar{
-    width: inherit;
-}
-@media (max-width: 375px){
+/* @media only screen and (max-width: 374px){  Mobile <320px*/
     .img-info{
         margin: auto;
         display: block;
@@ -24,7 +11,7 @@
         height: 100px;
     }
     .main_page section.page1 .page_container {
-		top: 15%;
+		top: 7%;
 	}
     .page1 h1{
         text-align: center;
@@ -37,6 +24,7 @@
     .page1 h2{
         width: auto !important;
         text-align: center;
+        font-size: 15px;
     }
     .page1 .person >div {
         margin-top: 10px;
@@ -69,18 +57,24 @@
     .page2 h2{
         width: auto !important;
         text-align: center;
+        font-size: 18px;
     }
     .page2 h2 {
         text-align: left;
         margin-bottom: 5px !important;
     }
     .page2 ul > li {
-        font-size: 13px !important;
+        font-size: 13px;
         color: #b9b9b9;
     }
+    .page1 .contact .social{
+        max-width: max-content !important;
+        margin: auto !important;
+        margin-top: 20px !important;
+    }
     
-}
-@media (min-width: 376px){
+/* } */
+@media only screen and (min-width: 375px){
     .img-info{
         margin: auto;
         display: block;
@@ -93,7 +87,7 @@
 	}
     .page1 h1{
         text-align: center;
-        font-size:30px;
+        font-size:28px;
         float: unset;
         margin-top: 10px;
         margin-bottom: 0px !important;
@@ -145,16 +139,71 @@
         text-align: left;
     }
     .page2 ul > li {
-        font-size: 13px !important;
+        font-size: 13px;
         color: #b9b9b9;
     }
 }
-.img-info{
-    background: #fff;
-    border-radius: 50%;
-}
-/* page2 */
-.page2 ul > li {
-    font-size: 14px;
-    color: #b9b9b9;
+@media (min-width: 1024px){
+    .img-info{
+        margin: 0 10px;
+        width: 150px;
+        height: 150px;
+    }
+    .info-avatar{
+        display: flex;
+    }
+    .main_page section.page1 .page_container {
+		top: 15%;
+	}
+    .page1 h2{
+        width: auto !important;
+        padding: 0 2px;
+        text-align: left;
+        font-size: 28px;
+    }
+    .page1 .person >div {
+        margin-top: 10px;
+    }
+    .page1 .person > div > span{
+        font-size: 16px !important;
+    }
+    .page1 .person > div{
+        font-size: 18px !important;
+    }
+    .page1 .contact .btn{
+        display: inline;
+    }
+    .page1 .contact > div > span{
+        font-size: 16px !important;
+    }
+    .page1 .contact > div{
+        margin-top: 10px;
+        font-size: 18px !important;
+    }
+    .page1 .contact .social{
+        max-width: max-content !important;
+        margin: 0 !important;
+        margin-top: 20px !important;
+    }
+    /*page 2*/
+    .page2 h1{
+        text-align: center;
+        font-size: 35px;
+        float: unset;
+        margin-top: 10px;
+        margin-bottom: 15px !important;
+        letter-spacing: 1px;
+    }
+    .page2 h2{
+        width: auto !important;
+        text-align: center;
+        font-size: 28px;
+    }
+    .page2 h2 {
+        text-align: left;
+    }
+    .page2 ul > li {
+        font-size: 14px;
+        color: #b9b9b9;
+    }
 }

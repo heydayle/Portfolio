@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:wght@100&display=swap);
-/* html,body{
-	padding: 0;
-	margin: 0;
-	color: white;
-  } */
+
   html {
 	height: 100%;
 	font: 100% "Be Vietnam Pro", cursive;
@@ -230,7 +226,7 @@
 	text-align: center;
   }
   .main_page section.page2 {
-	background: #555557 url(back-phone.png) no-repeat center -150px ;
+	background: #555557;
   }
   .main_page section.page2 > img {
 	position: absolute;
@@ -254,7 +250,7 @@
 	color: #FFF;
 	}
   .main_page section.page3 {
-	background:url(tilted-phone.png) no-repeat 156px -150px ;
+	background:#e7e7e7 ;
   }
   .main_page section.page3 .page_container {
 	overflow: hidden;
