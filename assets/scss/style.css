@@ -178,7 +178,7 @@
   }
   .main_page section .page_container {
 	position: relative;
-	top: 5%;
+	top: 2%;
 	margin: 0 auto 0;
 	max-width: 950px;
 	z-index: 3;
@@ -188,6 +188,10 @@
 		top: 15%;
 	  }
 	.main_page section.page1 h1 {
+		text-align: left;
+		font-size: 70px;
+	}
+	.main_page section.page2 h1 {
 		text-align: left;
 		font-size: 70px;
 	}
@@ -234,16 +238,15 @@
 	left: 50%;
 	margin-left: -1095px;
   }
+
   .main_page section.page2 h1 {
 	padding: 0;
 	margin-bottom: 15px;
-	font-size: 50px;
 	letter-spacing: -1px;
 	color: white;
   }
   .main_page section.page2 h2 {
 	color: rgba(255,255,255,0.85);
-	line-height: 160%;
 	font-weight: 100;
   }
   .viewing-page-2 .back{

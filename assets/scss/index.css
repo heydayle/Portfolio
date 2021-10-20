@@ -23,9 +23,12 @@
         width: 100px;
         height: 100px;
     }
+    .main_page section.page1 .page_container {
+		top: 15%;
+	}
     .page1 h1{
         text-align: center;
-        font-size:25px;
+        font-size:20px;
         float: unset;
         margin-top: 10px;
         margin-bottom: 0px !important;
@@ -55,6 +58,75 @@
         font-size: 16px !important;
     }
     
+}
+@media (min-width: 376px){
+    .img-info{
+        margin: auto;
+        display: block;
+        width: 120px;
+        height: 120px;
+    }
+    /*page 1*/
+    .main_page section.page1 .page_container {
+		top: 5%;
+	}
+    .page1 h1{
+        text-align: center;
+        font-size:30px;
+        float: unset;
+        margin-top: 10px;
+        margin-bottom: 0px !important;
+        letter-spacing: 1px;
+    }
+    .page1 h2{
+        width: auto !important;
+        text-align: center;
+    }
+    .page1 .person >div {
+        margin-top: 10px;
+    }
+    .page1 .person > div > span{
+        font-size: 16px !important;
+    }
+    .page1 .person > div{
+        font-size: 18px !important;
+    }
+    .page1 .contact .btn{
+        display: none;
+    }
+    .page1 .contact > div > span{
+        font-size: 16px !important;
+    }
+    .page1 .contact > div{
+        margin-top: 10px;
+        font-size: 18px !important;
+    }
+    .page1 .contact .social{
+        max-width: max-content !important;
+        margin: auto !important;
+        margin-top: 20px !important;
+    }
+    
+    /*page 2*/
+    .page2 h1{
+        text-align: center;
+        font-size: 35px;
+        float: unset;
+        margin-top: 10px;
+        margin-bottom: 15px !important;
+        letter-spacing: 1px;
+    }
+    .page2 h2{
+        width: auto !important;
+        text-align: center;
+    }
+    .page2 h2 {
+        text-align: left;
+    }
+    .page2 ul > li {
+        font-size: 13px !important;
+        color: #b9b9b9;
+    }
 }
 .img-info{
     background: #fff;
