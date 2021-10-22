@@ -3,6 +3,9 @@
     background: #fff;
     border-radius: 50%;
 }
+body {
+    background: #eee;
+}
 /* @media only screen and (max-width: 374px){  Mobile <320px*/
     .img-info{
         margin: auto;
@@ -10,137 +13,137 @@
         width: 100px;
         height: 100px;
     }
-    .main_page section.page1 .page_container {
-		top: 3%;
-	}
-    .page1 h1{
+    .et-hero-tabs{
+        height: 100vh !important;
+        background: #c5c5c5
+    }
+    .et-hero-tabs h1{
         text-align: center;
-        font-size:20px;
+        font-size: 22px !important;
         float: unset;
         margin-top: 10px;
         margin-bottom: 0px !important;
         letter-spacing: 1px;
     }
-    .page1 h2{
+    .et-hero-tabs h2{
         width: auto !important;
         text-align: center;
-        font-size: 15px;
+        font-size: 15px !important;
     }
-    .page1 .person >div {
+    .et-hero-tabs .person >div {
         margin-top: 10px;
     }
-    .page1 .person > div > span{
+    .et-hero-tabs .person > div > span{
         font-size: 14px !important;
     }
-    .page1 .person > div{
+    .et-hero-tabs .person > div{
         font-size: 16px !important;
     }
-    .page1 .contact .btn{
+    .et-hero-tabs .contact .btn{
         display: none;
     }
-    .page1 .contact > div > span{
+    .et-hero-tabs .contact > div > span{
         font-size: 14px !important;
     }
-    .page1 .contact > div{
+    .et-hero-tabs .contact > div{
         margin-top: 10px;
         font-size: 16px !important;
     }
+    .et-hero-tabs .contact .social{
+        max-width: max-content !important;
+        margin: auto !important;
+        margin-top: 20px !important;
+    }
     /*page 2*/
-    .page2 h1{
+    #tab-summary h1, #tab-working-experience h1, #tab-project h1 {
         text-align: center;
-        font-size: 35px;
+        font-size: 45px;
         float: unset;
         margin-top: 5px;
         margin-bottom: 5px !important;
         letter-spacing: 1px;
     }
-    .page2 h2{
+    #tab-summary h2, #tab-working-experience h2, #tab-project h2{
         width: auto !important;
-        text-align: center;
-        font-size: 18px;
-    }
-    .page2 h2 {
-        text-align: left;
+        font-size: 20px;
+        border-bottom: 1px solid #c9c9c9;
         margin-bottom: 5px !important;
     }
-    .page2 ul > li {
+    #tab-summary ul > li {
         font-size: 13px;
-        color: #b9b9b9;
+        color: #5c5c5c;
     }
-    .page1 .contact .social{
-        max-width: max-content !important;
-        margin: auto !important;
-        margin-top: 20px !important;
+    #tab-working-experience {
+
     }
     
 /* } */
-@media only screen and (min-width: 375px){
+@media only screen and (min-width: 376px){
     .img-info{
         margin: auto;
         display: block;
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
     }
     /*page 1*/
-    .main_page section.page1 .page_container {
-		top: 5%;
-	}
-    .page1 h1{
+    .et-hero-tabs h1{
         text-align: center;
-        font-size:28px;
+        font-size: 28px !important;
         float: unset;
         margin-top: 10px;
         margin-bottom: 0px !important;
         letter-spacing: 1px;
     }
-    .page1 h2{
+    .et-hero-tabs h2{
+        font-size: 20px !important;
         width: auto !important;
         text-align: center;
     }
-    .page1 .person >div {
+    .et-hero-tabs .person >div {
         margin-top: 10px;
     }
-    .page1 .person > div > span{
-        font-size: 16px !important;
+    .et-hero-tabs .person > div > span{
+        font-size: 20px !important;
     }
-    .page1 .person > div{
-        font-size: 18px !important;
+    .et-hero-tabs .person > div{
+        font-size: 22px !important;
     }
-    .page1 .contact .btn{
+    .et-hero-tabs .contact .btn{
         display: none;
     }
-    .page1 .contact > div > span{
-        font-size: 16px !important;
+    .et-hero-tabs .contact > div > span{
+        font-size: 20px !important;
     }
-    .page1 .contact > div{
+    .et-hero-tabs .contact > div{
         margin-top: 10px;
-        font-size: 18px !important;
+        font-size: 22px !important;
     }
-    .page1 .contact .social{
+    .et-hero-tabs .contact .social{
         max-width: max-content !important;
         margin: auto !important;
         margin-top: 20px !important;
     }
     
     /*page 2*/
-    .page2 h1{
+    #tab-summary h1, #tab-working-experience h1, #tab-project h1{
         text-align: center;
-        font-size: 35px;
+        font-size: 45px !important;
         float: unset;
         margin-top: 10px;
         margin-bottom: 15px !important;
         letter-spacing: 1px;
     }
-    .page2 h2{
+    #tab-summary h2, #tab-working-experience h2, #tab-project h2{
         width: auto !important;
-        text-align: center;
+        font-size: 24px;
+        border-bottom: 1px solid #c9c9c9;
     }
-    .page2 h2 {
+    #tab-summary h2 {
         text-align: left;
     }
-    .page2 ul > li {
-        font-size: 13px;
-        color: #b9b9b9;
+    #tab-summary ul > li, #tab-working-experience  ul > li, #tab-project  ul > li {
+        font-size: 18px;
+        color: #5c5c5c;
     }
 }
 @media (min-width: 1024px){
@@ -152,9 +155,10 @@
     .info-avatar{
         display: flex;
     }
-    .main_page section.page1 .page_container {
-		top: 15%;
-	}
+    .et-main {
+        width: 95%;
+        margin: auto;
+    }
     .page1 h2{
         width: auto !important;
         padding: 0 2px;
@@ -186,23 +190,19 @@
         margin-top: 20px !important;
     }
     /*page 2*/
-    .page2 h1{
+    #tab-summary h1, #tab-working-experience h1, #tab-project h1{
         text-align: center;
-        font-size: 35px;
+        font-size: 45px !important;
         float: unset;
         margin-top: 10px;
         margin-bottom: 15px !important;
         letter-spacing: 1px;
     }
-    .page2 h2{
-        width: auto !important;
-        text-align: center;
+    #tab-summary h2, #tab-working-experience h2, #tab-project h2{
+        width: fit-content !important;
         font-size: 28px;
     }
-    .page2 h2 {
-        text-align: left;
-    }
-    .page2 ul > li {
+    #tab-summary ul > li {
         font-size: 14px;
         color: #b9b9b9;
     }
