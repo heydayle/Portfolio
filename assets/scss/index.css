@@ -35,6 +35,7 @@ body {
     }
     .et-hero-tabs .person > div > span{
         font-size: 14px !important;
+        color: rgb(90, 90, 90);
     }
     .et-hero-tabs .person > div{
         font-size: 16px !important;
@@ -44,6 +45,7 @@ body {
     }
     .et-hero-tabs .contact > div > span{
         font-size: 14px !important;
+        color: rgb(90, 90, 90);
     }
     .et-hero-tabs .contact > div{
         margin-top: 10px;
@@ -168,7 +170,7 @@ body {
     }
     .et-hero-tabs h1{
         text-align: left;
-        font-size: 45px !important;
+        font-size: 60px !important;
         float: unset;
         margin-top: 10px;
         margin-bottom: 0px !important;

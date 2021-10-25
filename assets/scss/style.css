@@ -1,5 +1,9 @@
+@font-face {
+	font-family: "baemin";
+	src: url(../font/BMDANIEL-Bold.otf);
+}
 body {
-    font-family: "Century Gothic", 'Lato', sans-serif;
+    font-family: "baemin", 'Lato', sans-serif;
 }
 a {
     text-decoration: none;
