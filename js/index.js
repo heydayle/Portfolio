@@ -300,6 +300,6 @@
 
 function copyToClipboard(value) {
   navigator.clipboard.writeText(value);
-  gtag("send", "click", "contact", "copy", "Label", { value: value });
+  gtag("send", "event", "contact", "copy", "click copy", { value: value });
   alert("Copied: " + value);
 }
