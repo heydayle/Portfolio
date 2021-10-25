@@ -16,39 +16,9 @@
     <script language="JavaScript" type="text/javascript" src="lib/jquery/jquery.min.js"></script>
     <script src="js/carousel.js"></script>
 
-    <!--GA-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5V1T150XD"></script>
-    <!-- <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-G5V1T150XD');
-    </script> -->
-    <script src="js/index.js"></script>
-    <!-- Google Analytics -->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'G-G5V1T150XD', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <!-- End Google Analytics -->
-    <!-- Messenger Plugin chat Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Plugin chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
     <!-- FB messenger -->
     <script>
-        var chatbox = document.getElementById('fb-customer-chat');
+        let chatbox = document.getElementById('fb-customer-chat');
         chatbox.setAttribute("page_id", "100943537942336");
         chatbox.setAttribute("attribution", "biz_inbox");
 
@@ -67,10 +37,31 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
+
+    <!--GA-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5V1T150XD"></script>
+    <script src="js/index.js"></script>
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'G-G5V1T150XD', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
     <!-- Hero -->
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
     <section class="et-hero-tabs">
         <div class="col-10 col-sm-10 col-lg-8 info-avatar mx-auto pt-3">
             <img class="img-info" src="assets/img/portrait.png" alt="phones">
