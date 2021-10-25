@@ -311,5 +311,6 @@ function copyToClipboard(type, value) {
     type: type ? type : "Phone number",
     value: value,
   });
-  alert("Copied " + type ? type : "phone number" + ": " + value);
+  ga("send", "click");
+  alert("Copied " + (type ? type : "phone number") + ": " + value);
 }
