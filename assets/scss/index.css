@@ -158,13 +158,18 @@ body {
     .info-avatar{
         display: flex;
         margin: 0 auto;
+        padding-top: 20vh;
     }
     .et-main {
         width: 95%;
         margin: auto;
     }
     .et-hero-tabs {
-        padding-top: 20vh;
+        /* padding-top: 20vh; */
+        /* margin-top: 20vh; */
+    }
+    .info-main{
+        padding-top: 15vh; 
     }
     .et-hero-tabs .name {
         margin: auto 0;
