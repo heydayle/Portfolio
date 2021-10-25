@@ -42,13 +42,11 @@
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
     <script>
-        var chatbox = document.getElementById('fb-customer-chat');
+        let chatbox = document.getElementById('fb-customer-chat');
         chatbox.setAttribute("page_id", "100943537942336");
-        chatbox.setAttribute("attribution", "biz_inbox");
 
         window.fbAsyncInit = function () {
             FB.init({
-                autoLogAppEvents: true,
                 xfbml: true,
                 version: 'v3.3'
             });
