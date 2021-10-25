@@ -70,9 +70,10 @@ body {
         font-size: 20px;
         border-bottom: 1px solid #c9c9c9;
         margin-bottom: 5px !important;
+        color: #000000;
     }
-    #tab-summary ul > li {
-        font-size: 13px;
+    #tab-summary ul > li, #tab-working-experience ul > li, #tab-project ul > li {
+        font-size: 14px;
         color: #5c5c5c;
     }
     .et-slide span {
