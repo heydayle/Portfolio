@@ -298,8 +298,18 @@
   };
 })(window.jQuery);
 
-function copyToClipboard(value) {
+function copyToClipboard(type, value) {
   navigator.clipboard.writeText(value);
-  ga("send", "event", "contact", "copy", "Label", { value: value });
-  alert("Copied: " + value);
+  dataLayer.push({
+    event: "gtm.copyClick",
+    data: {
+      type: type ? type : "Phone number",
+      value: value,
+    },
+  });
+  console.log({
+    type: type ? type : "Phone number",
+    value: value,
+  });
+  alert("Copied " + type ? type : "phone number" + ": " + value);
 }
