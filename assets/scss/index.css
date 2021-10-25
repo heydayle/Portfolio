@@ -154,37 +154,51 @@ body {
     }
     .info-avatar{
         display: flex;
+        margin: 0 auto;
     }
     .et-main {
         width: 95%;
         margin: auto;
     }
-    .page1 h2{
-        width: auto !important;
-        padding: 0 2px;
-        text-align: left;
-        font-size: 28px;
+    .et-hero-tabs {
+        padding-top: 20vh;
     }
-    .page1 .person >div {
+    .et-hero-tabs .name {
+        margin: auto 0;
+    }
+    .et-hero-tabs h1{
+        text-align: left;
+        font-size: 45px !important;
+        float: unset;
+        margin-top: 10px;
+        margin-bottom: 0px !important;
+        letter-spacing: 1px;
+    }
+    .et-hero-tabs h2{
+        width: auto !important;
+        text-align: left;
+        font-size: 25px !important;
+    }
+    .et-hero-tabs .person >div {
         margin-top: 10px;
     }
-    .page1 .person > div > span{
+    .et-hero-tabs .person > div > span{
         font-size: 16px !important;
     }
-    .page1 .person > div{
+    .et-hero-tabs .person > div{
         font-size: 18px !important;
     }
-    .page1 .contact .btn{
+    .et-hero-tabs .contact .btn{
         display: inline;
     }
-    .page1 .contact > div > span{
+    .et-hero-tabs .contact > div > span{
         font-size: 16px !important;
     }
-    .page1 .contact > div{
+    .et-hero-tabs .contact > div{
         margin-top: 10px;
         font-size: 18px !important;
     }
-    .page1 .contact .social{
+    .et-hero-tabs .contact .social{
         max-width: max-content !important;
         margin: 0 !important;
         margin-top: 20px !important;
@@ -201,9 +215,10 @@ body {
     #tab-summary h2, #tab-working-experience h2, #tab-project h2{
         width: fit-content !important;
         font-size: 28px;
+        color: #000000;
     }
     #tab-summary ul > li {
-        font-size: 14px;
-        color: #b9b9b9;
+        font-size: 18px;
+        color: #5c5c5c;
     }
 }
