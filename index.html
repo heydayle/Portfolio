@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'">
     <title>Thinh Le</title>
     <link rel="icon" href="./assets/img/icon/ic-heyday.png">
     <link href="./lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,24 +33,26 @@
         ga('send', 'pageview');
     </script>
     <!-- End Google Analytics -->
-
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
     <!-- Messenger Plugin chat Code -->
+    <!-- Messenger Plugin chat Code -->
     <div id="fb-root"></div>
+
     <!-- Your Plugin chat code -->
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
+
     <script>
-        // let chatbox = document.getElementById('fb-customer-chat');
-        // chatbox.setAttribute("page_id", "100943537942336");
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "100943537942336");
+        chatbox.setAttribute("attribution", "biz_inbox");
 
         window.fbAsyncInit = function () {
             FB.init({
-                appId: '100943537942336',
                 xfbml: true,
-                version: 'v3.3'
+                version: 'v12.0'
             });
         };
 
