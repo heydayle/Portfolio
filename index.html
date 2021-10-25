@@ -32,15 +32,6 @@
         ga('send', 'pageview');
     </script>
     <!-- End Google Analytics -->
-</head>
-
-<body data-spy="scroll" data-target="#navbar-example">
-    <!-- Messenger Plugin chat Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Plugin chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
     <script>
         let chatbox = document.getElementById('fb-customer-chat');
         chatbox.setAttribute("page_id", "100943537942336");
@@ -60,6 +51,14 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
     <!-- Hero -->
     <section class="et-hero-tabs">
         <div class="col-10 col-sm-10 col-lg-8 info-avatar mx-auto pt-3">
