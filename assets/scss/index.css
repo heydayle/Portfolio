@@ -75,8 +75,8 @@ body {
         font-size: 13px;
         color: #5c5c5c;
     }
-    #tab-working-experience {
-
+    .et-slide span {
+        color: rgb(0, 0, 0);
     }
     
 /* } */

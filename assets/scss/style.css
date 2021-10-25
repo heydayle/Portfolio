@@ -22,7 +22,10 @@ a {
         font-size: 2rem;
         margin: 0;
         letter-spacing: 1rem;
-    } 
+    }
+    .et-hero-tabs a {
+        font-size: 1.5rem;
+    }
 }
 .et-hero-tabs h3, .et-slide h3 {
     font-size: 1rem;
