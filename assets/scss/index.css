@@ -13,6 +13,9 @@ body {
         width: 100px;
         height: 100px;
     }
+    .info-avatar {
+        padding: 0;
+    }
     .et-hero-tabs{
         height: 100vh !important;
         background: #c5c5c5
@@ -55,6 +58,18 @@ body {
         max-width: max-content !important;
         margin: auto !important;
         margin-top: 20px !important;
+    }
+    .et-hero-tabs .contact #email-value, .et-hero-tabs .contact #mobile{
+        padding: 3px;
+        border: solid 1px #fff;
+        border-radius: 5px;
+    }
+    .et-hero-tabs .contact .social img{
+        transition: transform 0.5s;
+    }
+    .et-hero-tabs .contact .social img:hover{
+        transition: all 200ms ease-in-out;
+        transform: scale(1.2)
     }
     /*page 2*/
     #tab-summary h1, #tab-working-experience h1, #tab-project h1 {
@@ -125,6 +140,11 @@ body {
         max-width: max-content !important;
         margin: auto !important;
         margin-top: 20px !important;
+    }
+    .et-hero-tabs .contact #email-value, .et-hero-tabs .contact #mobile{
+        /* padding: 3px; */
+        color: #000 !important;
+        font-size: 22px !important;
     }
     
     /*page 2*/
@@ -209,7 +229,13 @@ body {
     .et-hero-tabs .contact .social{
         max-width: max-content !important;
         margin: 0 !important;
-        margin-top: 20px !important;
+        margin-top: 10px !important;
+    }
+    .et-hero-tabs .contact #email-value, .et-hero-tabs .contact #mobile{
+        /* padding: 3px; */
+        font-size: 18px !important;
+        color: #000 !important;
+        border: none;
     }
     /*page 2*/
     #tab-summary h1, #tab-working-experience h1, #tab-project h1{

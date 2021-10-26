@@ -312,5 +312,21 @@ function copyToClipboard(type, value) {
     value: value,
   });
   ga("send", "click");
-  alert("Copied " + (type ? type : "phone number") + ": " + value);
+  ga("send", {
+    hitType: "event",
+    eventCategory: "Copy",
+    eventAction: "click",
+    eventLabel: value,
+  });
+  console.log(
+    ga("send", {
+      hitType: "event",
+      eventCategory: "Copy",
+      eventAction: "click",
+      eventLabel: value,
+    })
+  );
+  document.getElementById("modal-header").innerHTML = "Copied ";
+  document.getElementById("content").innerHTML = value;
+  // alert("Copied " + (type ? type : "phone number") + ": " + value);
 }
