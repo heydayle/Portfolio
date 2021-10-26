@@ -326,6 +326,7 @@ function copyToClipboard(type, value) {
       eventLabel: value,
     })
   );
+  ga("send", "pageview");
   document.getElementById("modal-header").innerHTML = "Copied ";
   document.getElementById("content").innerHTML = value;
   // alert("Copied " + (type ? type : "phone number") + ": " + value);
