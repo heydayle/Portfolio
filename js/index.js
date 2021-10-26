@@ -298,16 +298,17 @@
   };
 })(window.jQuery);
 
-function copyToClipboard(type, value) {
-  navigator.clipboard.writeText(value);
+function copyToClipboard(type) {
+  let data = document.querySelector(type);
+  navigator.clipboard.writeText(data.value);
   dataLayer.push({
     event: "gtm.copyClick",
     data: {
-      type: type ? type : "Phone number",
-      value: value,
+      type: type == "#email-input" ? "Email" : "Phone number",
+      value: data.value,
     },
   });
   document.getElementById("modal-header").innerHTML = "Copied ";
-  document.getElementById("content").innerHTML = value;
+  document.getElementById("content").innerHTML = data.value;
   // alert("Copied " + (type ? type : "phone number") + ": " + value);
 }
