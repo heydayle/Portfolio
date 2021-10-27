@@ -6,6 +6,26 @@
 body {
     background: #eee;
 }
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+  @keyframes slideInFromBottom{
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
 /* @media only screen and (max-width: 374px){  Mobile <320px*/
     .img-info{
         margin: auto;
@@ -21,14 +41,17 @@ body {
         background: #c5c5c5
     }
     .et-hero-tabs h1{
+        animation: 700ms ease-out 0s 1 slideInFromBottom;
         text-align: center;
         font-size: 22px !important;
         float: unset;
+        padding: 0;
         margin-top: 10px;
         margin-bottom: 0px !important;
         letter-spacing: 1px;
     }
     .et-hero-tabs h2{
+        animation: 700ms ease-out 0s 1 slideInFromBottom;
         width: auto !important;
         text-align: center;
         font-size: 15px !important;
@@ -105,6 +128,7 @@ body {
     }
     /*page 1*/
     .et-hero-tabs h1{
+        animation: 500ms ease-out 0s 1 slideInFromBottom;
         text-align: center;
         font-size: 28px !important;
         float: unset;
@@ -195,6 +219,7 @@ body {
         margin: auto 0;
     }
     .et-hero-tabs h1{
+        animation: 500ms ease-out 0s 1 slideInFromLeft;
         text-align: left;
         font-size: 60px !important;
         float: unset;
@@ -203,6 +228,7 @@ body {
         letter-spacing: 1px;
     }
     .et-hero-tabs h2{
+        animation: 500ms ease-out 0s 1 slideInFromBottom;
         width: auto !important;
         text-align: left;
         font-size: 25px !important;
