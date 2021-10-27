@@ -323,7 +323,7 @@ function CopyToClipboard(containerid) {
     range.selectNode(document.getElementById(containerid));
     window.getSelection().addRange(range);
     document.execCommand("copy");
-    // alert("Text has been copied, now paste in the text-area");
+    navigator.clipboard.writeText(range);
     document.getElementById("modal-header").innerHTML = "Copied ";
     document.getElementById("content").innerHTML = range;
   }
