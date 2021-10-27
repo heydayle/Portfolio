@@ -298,17 +298,33 @@
   };
 })(window.jQuery);
 
-function copyToClipboard(type) {
-  let data = document.querySelector(type);
-  navigator.clipboard.writeText(data.value);
-  dataLayer.push({
-    event: "gtm.copyClick",
-    data: {
-      type: type == "#email-input" ? "Email" : "Phone number",
-      value: data.value,
-    },
-  });
-  document.getElementById("modal-header").innerHTML = "Copied ";
-  document.getElementById("content").innerHTML = data.value;
-  // alert("Copied " + (type ? type : "phone number") + ": " + value);
+// function copyToClipboard(type) {
+//   let data = document.querySelector(type);
+//   navigator.clipboard.writeText(data.value);
+//   dataLayer.push({
+//     event: "gtm.copyClick",
+//     data: {
+//       type: type == "#email-input" ? "Email" : "Phone number",
+//       value: data.value,
+//     },
+//   });
+//   document.getElementById("modal-header").innerHTML = "Copied ";
+//   document.getElementById("content").innerHTML = data.value;
+//   // alert("Copied " + (type ? type : "phone number") + ": " + value);
+// }
+function CopyToClipboard(containerid) {
+  if (document.selection) {
+    var range = document.body.createTextRange();
+    range.moveToElementText(document.getElementById(containerid));
+    range.select().createTextRange();
+    document.execCommand("copy");
+  } else if (window.getSelection) {
+    var range = document.createRange();
+    range.selectNode(document.getElementById(containerid));
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    // alert("Text has been copied, now paste in the text-area");
+    document.getElementById("modal-header").innerHTML = "Copied ";
+    document.getElementById("content").innerHTML = range;
+  }
 }
