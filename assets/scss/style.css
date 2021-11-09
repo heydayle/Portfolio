@@ -1,9 +1,9 @@
 @font-face {
-	font-family: "baemin";
-	src: url(../font/BMDANIEL-Bold.otf);
+    font-family: "baemin";
+    src: url(../font/BMDANIEL-Bold.otf);
 }
 body {
-    font-family: "baemin", 'Lato', sans-serif;
+    font-family: "baemin", "Lato", sans-serif;
 }
 a {
     text-decoration: none;
@@ -17,8 +17,9 @@ a {
     background: #eee;
     padding: 0 15px;
 }
-@media screen and (min-width: 1024px){
-    .et-hero-tabs h1, .et-slide h1 {
+@media screen and (min-width: 1024px) {
+    .et-hero-tabs h1,
+    .et-slide h1 {
         font-size: 2rem;
         margin: 0;
         letter-spacing: 1rem;
@@ -27,7 +28,8 @@ a {
         font-size: 1.5rem;
     }
 }
-.et-hero-tabs h3, .et-slide h3 {
+.et-hero-tabs h3,
+.et-slide h3 {
     font-size: 1rem;
     letter-spacing: 0.3rem;
     opacity: 0.6;
@@ -71,13 +73,24 @@ a {
     transition: left 0.3s ease;
 }
 @media (min-width: 800px) {
-    .et-hero-tabs h1, .et-slide h1 {
+    .et-hero-tabs h1,
+    .et-slide h1 {
         font-size: 3rem;
-   }
-    .et-hero-tabs h3, .et-slide h3 {
+    }
+    .et-hero-tabs h3,
+    .et-slide h3 {
         font-size: 1rem;
-   }
+    }
     .et-hero-tab {
         font-size: 1rem;
-   }
+    }
+}
+#present-company {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+#present-company:hover {
+    color: cadetblue;
+    transition: all 0.5s ease;
 }

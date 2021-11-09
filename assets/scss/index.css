@@ -1,5 +1,4 @@
-
-.img-info{
+.img-info {
     background: #fff;
     border-radius: 50%;
 }
@@ -15,8 +14,8 @@ body {
         opacity: 1;
         transform: translateX(0);
     }
-  }
-  @keyframes slideInFromBottom{
+}
+@keyframes slideInFromBottom {
     0% {
         opacity: 0;
         transform: translateY(70%);
@@ -25,109 +24,117 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
-  }
+}
 /* @media only screen and (max-width: 374px){  Mobile <320px*/
-    .img-info{
-        margin: auto;
-        display: block;
-        width: 100px;
-        height: 100px;
-    }
-    .info-avatar {
-        padding: 0;
-    }
-    .et-hero-tabs{
-        height: 100vh !important;
-        background: #c5c5c5
-    }
-    .et-hero-tabs h1{
-        animation: 700ms ease-out 0s 1 slideInFromBottom;
-        text-align: center;
-        font-size: 22px !important;
-        float: unset;
-        padding: 0;
-        margin-top: 10px;
-        margin-bottom: 0px !important;
-        letter-spacing: 1px;
-    }
-    .et-hero-tabs h2{
-        animation: 700ms ease-out 0s 1 slideInFromBottom;
-        width: auto !important;
-        text-align: center;
-        font-size: 15px !important;
-    }
-    .et-hero-tabs .person >div {
-        margin-top: 10px;
-    }
-    .et-hero-tabs .person > div > span{
-        font-size: 14px !important;
-        color: rgb(90, 90, 90);
-    }
-    .et-hero-tabs .person > div{
-        font-size: 16px !important;
-    }
-    .et-hero-tabs .contact .btn{
-        display: none;
-    }
-    .et-hero-tabs .contact > div > span{
-        font-size: 14px !important;
-        color: rgb(90, 90, 90);
-    }
-    .et-hero-tabs .contact > div{
-        margin-top: 10px;
-        font-size: 16px !important;
-    }
-    .et-hero-tabs .contact .social{
-        max-width: max-content !important;
-        margin: auto !important;
-        margin-top: 20px !important;
-    }
-    .et-hero-tabs .contact #email-value, .et-hero-tabs .contact #mobile{
-        padding: 3px;
-        border: solid 1px #fff;
-        border-radius: 5px;
-    }
-    .et-hero-tabs .contact .social img{
-        transition: transform 0.5s;
-    }
-    .et-hero-tabs .contact .social img:hover{
-        transition: all 200ms ease-in-out;
-        transform: scale(1.2)
-    }
-    /*page 2*/
-    #tab-summary h1, #tab-working-experience h1, #tab-project h1 {
-        text-align: center;
-        font-size: 45px;
-        float: unset;
-        margin-top: 5px;
-        margin-bottom: 5px !important;
-        letter-spacing: 1px;
-    }
-    #tab-summary h2, #tab-working-experience h2, #tab-project h2{
-        width: auto !important;
-        font-size: 20px;
-        border-bottom: 1px solid #c9c9c9;
-        margin-bottom: 5px !important;
-        color: #000000;
-    }
-    #tab-summary ul > li, #tab-working-experience ul > li, #tab-project ul > li {
-        font-size: 14px;
-        color: #5c5c5c;
-    }
-    .et-slide span {
-        color: rgb(0, 0, 0);
-    }
-    
+.img-info {
+    margin: auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.info-avatar {
+    padding: 0;
+}
+.et-hero-tabs {
+    height: 100vh !important;
+    background: #c5c5c5;
+}
+.et-hero-tabs h1 {
+    animation: 700ms ease-out 0s 1 slideInFromBottom;
+    text-align: center;
+    font-size: 22px !important;
+    float: unset;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0px !important;
+    letter-spacing: 1px;
+}
+.et-hero-tabs h2,
+#present-company {
+    animation: 700ms ease-out 0s 1 slideInFromBottom;
+    width: auto !important;
+    text-align: center;
+    font-size: 15px !important;
+}
+.et-hero-tabs .person > div {
+    margin-top: 10px;
+}
+.et-hero-tabs .person > div > span {
+    font-size: 14px !important;
+    color: rgb(90, 90, 90);
+}
+.et-hero-tabs .person > div {
+    font-size: 16px !important;
+}
+.et-hero-tabs .contact .btn {
+    display: none;
+}
+.et-hero-tabs .contact > div > span {
+    font-size: 14px !important;
+    color: rgb(90, 90, 90);
+}
+.et-hero-tabs .contact > div {
+    margin-top: 10px;
+    font-size: 16px !important;
+}
+.et-hero-tabs .contact .social {
+    max-width: max-content !important;
+    margin: auto !important;
+    margin-top: 20px !important;
+}
+.et-hero-tabs .contact #email-value,
+.et-hero-tabs .contact #mobile {
+    padding: 3px;
+    border: solid 1px #fff;
+    border-radius: 5px;
+}
+.et-hero-tabs .contact .social img {
+    transition: transform 0.5s;
+}
+.et-hero-tabs .contact .social img:hover {
+    transition: all 200ms ease-in-out;
+    transform: scale(1.2);
+}
+/*page 2*/
+#tab-summary h1,
+#tab-working-experience h1,
+#tab-project h1 {
+    text-align: center;
+    font-size: 45px;
+    float: unset;
+    margin-top: 5px;
+    margin-bottom: 5px !important;
+    letter-spacing: 1px;
+}
+#tab-summary h2,
+#tab-working-experience h2,
+#tab-project h2 {
+    width: auto !important;
+    font-size: 20px;
+    border-bottom: 1px solid #c9c9c9;
+    margin-bottom: 5px !important;
+    color: #000000;
+}
+#tab-summary ul > li,
+#tab-working-experience ul > li,
+#tab-project ul > li {
+    font-size: 14px;
+    color: #5c5c5c;
+}
+.et-slide span {
+    color: rgb(0, 0, 0);
+}
+
 /* } */
-@media only screen and (min-width: 376px){
-    .img-info{
+@media only screen and (min-width: 376px) {
+    .img-info {
         margin: auto;
         display: block;
         width: 150px;
         height: 150px;
     }
     /*page 1*/
-    .et-hero-tabs h1{
+    .et-hero-tabs h1 {
         animation: 500ms ease-out 0s 1 slideInFromBottom;
         text-align: center;
         font-size: 28px !important;
@@ -136,43 +143,47 @@ body {
         margin-bottom: 0px !important;
         letter-spacing: 1px;
     }
-    .et-hero-tabs h2{
+    .et-hero-tabs h2,
+    #present-company {
         font-size: 20px !important;
         width: auto !important;
         text-align: center;
     }
-    .et-hero-tabs .person >div {
+    .et-hero-tabs .person > div {
         margin-top: 10px;
     }
-    .et-hero-tabs .person > div > span{
+    .et-hero-tabs .person > div > span {
         font-size: 20px !important;
     }
-    .et-hero-tabs .person > div{
+    .et-hero-tabs .person > div {
         font-size: 22px !important;
     }
-    .et-hero-tabs .contact .btn{
+    .et-hero-tabs .contact .btn {
         display: none;
     }
-    .et-hero-tabs .contact > div > span{
+    .et-hero-tabs .contact > div > span {
         font-size: 20px !important;
     }
-    .et-hero-tabs .contact > div{
+    .et-hero-tabs .contact > div {
         margin-top: 10px;
         font-size: 22px !important;
     }
-    .et-hero-tabs .contact .social{
+    .et-hero-tabs .contact .social {
         max-width: max-content !important;
         margin: auto !important;
         margin-top: 20px !important;
     }
-    .et-hero-tabs .contact #email-value, .et-hero-tabs .contact #mobile{
+    .et-hero-tabs .contact #email-value,
+    .et-hero-tabs .contact #mobile {
         /* padding: 3px; */
         color: #000 !important;
         font-size: 22px !important;
     }
-    
+
     /*page 2*/
-    #tab-summary h1, #tab-working-experience h1, #tab-project h1{
+    #tab-summary h1,
+    #tab-working-experience h1,
+    #tab-project h1 {
         text-align: center;
         font-size: 45px !important;
         float: unset;
@@ -180,7 +191,9 @@ body {
         margin-bottom: 15px !important;
         letter-spacing: 1px;
     }
-    #tab-summary h2, #tab-working-experience h2, #tab-project h2{
+    #tab-summary h2,
+    #tab-working-experience h2,
+    #tab-project h2 {
         width: auto !important;
         font-size: 24px;
         border-bottom: 1px solid #c9c9c9;
@@ -188,18 +201,20 @@ body {
     #tab-summary h2 {
         text-align: left;
     }
-    #tab-summary ul > li, #tab-working-experience  ul > li, #tab-project  ul > li {
+    #tab-summary ul > li,
+    #tab-working-experience ul > li,
+    #tab-project ul > li {
         font-size: 18px;
         color: #5c5c5c;
     }
 }
-@media (min-width: 1024px){
-    .img-info{
+@media (min-width: 1024px) {
+    .img-info {
         margin: 0 10px;
         width: 150px;
         height: 150px;
     }
-    .info-avatar{
+    .info-avatar {
         display: flex;
         margin: 0 auto;
         padding-top: 20vh;
@@ -212,13 +227,13 @@ body {
         /* padding-top: 20vh; */
         /* margin-top: 20vh; */
     }
-    .info-main{
-        padding-top: 15vh; 
+    .info-main {
+        padding-top: 15vh;
     }
     .et-hero-tabs .name {
         margin: auto 0;
     }
-    .et-hero-tabs h1{
+    .et-hero-tabs h1 {
         animation: 500ms ease-out 0s 1 slideInFromLeft;
         text-align: left;
         font-size: 60px !important;
@@ -227,44 +242,48 @@ body {
         margin-bottom: 0px !important;
         letter-spacing: 1px;
     }
-    .et-hero-tabs h2{
+    .et-hero-tabs h2,
+    #present-company {
         animation: 500ms ease-out 0s 1 slideInFromBottom;
         width: auto !important;
         text-align: left;
         font-size: 25px !important;
     }
-    .et-hero-tabs .person >div {
+    .et-hero-tabs .person > div {
         margin-top: 10px;
     }
-    .et-hero-tabs .person > div > span{
+    .et-hero-tabs .person > div > span {
         font-size: 16px !important;
     }
-    .et-hero-tabs .person > div{
+    .et-hero-tabs .person > div {
         font-size: 18px !important;
     }
-    .et-hero-tabs .contact .btn{
+    .et-hero-tabs .contact .btn {
         display: inline;
     }
-    .et-hero-tabs .contact > div > span{
+    .et-hero-tabs .contact > div > span {
         font-size: 16px !important;
     }
-    .et-hero-tabs .contact > div{
+    .et-hero-tabs .contact > div {
         margin-top: 10px;
         font-size: 18px !important;
     }
-    .et-hero-tabs .contact .social{
+    .et-hero-tabs .contact .social {
         max-width: max-content !important;
         margin: 0 !important;
         margin-top: 10px !important;
     }
-    .et-hero-tabs .contact #email-value, .et-hero-tabs .contact #mobile{
+    .et-hero-tabs .contact #email-value,
+    .et-hero-tabs .contact #mobile {
         /* padding: 3px; */
         font-size: 18px !important;
         color: #000 !important;
         border: none;
     }
     /*page 2*/
-    #tab-summary h1, #tab-working-experience h1, #tab-project h1{
+    #tab-summary h1,
+    #tab-working-experience h1,
+    #tab-project h1 {
         text-align: center;
         font-size: 45px !important;
         float: unset;
@@ -272,7 +291,9 @@ body {
         margin-bottom: 15px !important;
         letter-spacing: 1px;
     }
-    #tab-summary h2, #tab-working-experience h2, #tab-project h2{
+    #tab-summary h2,
+    #tab-working-experience h2,
+    #tab-project h2 {
         width: fit-content !important;
         font-size: 28px;
         color: #000000;
