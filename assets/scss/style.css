@@ -17,6 +17,12 @@ a {
     background: #eee;
     padding: 0 15px;
 }
+
+#tab-chart {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
 @media screen and (min-width: 1024px) {
     .et-hero-tabs h1,
     .et-slide h1 {
@@ -26,6 +32,10 @@ a {
     }
     .et-hero-tabs a {
         font-size: 1.5rem;
+    }
+    #tab-chart {
+        padding-top: 120px;
+        padding-bottom: 40px;
     }
 }
 .et-hero-tabs h3,
